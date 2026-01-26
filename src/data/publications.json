@@ -1,0 +1,537 @@
+{
+  "publications": [
+    {
+      "id": "antonov2025optical",
+      "title": "Quality–diversity-driven robust evolutionary optimization of optical designs",
+      "authors": ["Kirill Antonov", "Teus Tukker", "Tiago Botari", "Thomas Bäck", "Anna V. Kononova", "Niki van Stein"],
+      "venue": "Optical Engineering",
+      "year": 2025,
+      "volume": "64",
+      "issue": "7",
+      "pages": "075106–075106",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.spiedigitallibrary.org/journals/optical-engineering/volume-64/issue-7/075106/Qualitydiversity-driven-robust-evolutionary-optimization-of-optical-designs/10.1117/1.OE.64.7.075106.short",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["optimization", "optical-design", "evolutionary-algorithms"],
+      "featured": false
+    },
+    {
+      "id": "antonov2024computational",
+      "title": "Quality-diversity driven robust evolutionary optimization of optical designs",
+      "authors": ["Kirill Antonov", "Teus Tukker", "Tiago Botari", "Thomas Bäck", "Anna V. Kononova", "Niki van Stein"],
+      "venue": "Computational Optics 2024",
+      "year": 2024,
+      "volume": "SPIE Proceedings 13023",
+      "pages": "84–95",
+      "type": "conference",
+      "links": {
+        "doi": "https://proceedings.spiedigitallibrary.org/conference-proceedings-of-spie/13023/130230B/Quality-diversity-driven-robust-evolutionary-optimization-of-optical-designs/10.1117/12.3017498.full",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["optimization", "optical-design", "evolutionary-algorithms"],
+      "featured": false
+    },
+    {
+      "id": "coscrato2023nls",
+      "title": "NLS: An accurate and yet easy-to-interpret prediction method",
+      "authors": ["Victor Coscrato", "Marco H. A. Inácio", "Tiago Botari", "Rafael Izbicki"],
+      "venue": "Neural Networks",
+      "year": 2023,
+      "volume": "162",
+      "pages": "117–130",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.sciencedirect.com/science/article/pii/S0893608023001156",
+        "arxiv": "https://arxiv.org/abs/1910.05206",
+        "pdf": null
+      },
+      "tags": ["machine-learning", "interpretability", "neural-networks"],
+      "featured": true
+    },
+    {
+      "id": "antonov2023cooke",
+      "title": "New solutions to Cooke triplet problem via analysis of attraction basins",
+      "authors": ["Kirill Antonov", "Tiago Botari", "Teus Tukker", "Thomas Bäck", "Niki van Stein", "Anna V. Kononova"],
+      "venue": "Digital Optical Technologies 2023",
+      "year": 2023,
+      "volume": "SPIE Proceedings 12624",
+      "pages": "131–143",
+      "type": "conference",
+      "links": {
+        "doi": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12624/2675836/New-solutions-to-Cooke-triplet-problem-via-analysis-of-attraction/10.1117/12.2675836.full",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["optimization", "optical-design"],
+      "featured": false
+    },
+    {
+      "id": "mastelini2022chalcogenide",
+      "title": "Machine learning unveils composition–property relationships in chalcogenide glasses",
+      "authors": ["Saulo Martiello Mastelini", "Daniel R. Cassar", "Edesio Alcobaça", "Tiago Botari", "André C. P. L. F. de Carvalho", "Edgar D. Zanotto"],
+      "venue": "Acta Materialia",
+      "year": 2022,
+      "volume": "240",
+      "pages": "118302",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S1359645422006814",
+        "arxiv": "https://arxiv.org/abs/2106.07749",
+        "pdf": null
+      },
+      "tags": ["machine-learning", "materials-science", "glass-physics"],
+      "featured": false
+    },
+    {
+      "id": "cassar2021oxide",
+      "title": "Predicting and interpreting oxide glass properties by machine learning using large datasets",
+      "authors": ["Daniel R. Cassar", "Saulo M. Mastelini", "Tiago Botari", "Edesio Alcobaça", "André C. P. L. F. de Carvalho", "Edgar D. Zanotto"],
+      "venue": "Ceramics International",
+      "year": 2021,
+      "volume": "47",
+      "issue": "17",
+      "pages": "23958–23972",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0272884221014917",
+        "arxiv": "https://arxiv.org/abs/2009.03194",
+        "pdf": null
+      },
+      "tags": ["machine-learning", "materials-science", "glass-physics"],
+      "featured": false
+    },
+    {
+      "id": "alcobaca2020explainable",
+      "title": "Explainable machine learning algorithms to predict glass transition temperature",
+      "authors": ["E. Alcobaça", "S. M. Mastelini", "T. Botari", "B. A. Pimentel", "D. R. Cassar", "A. C. P. de Leon Ferreira de Carvalho", "E. D. Zanotto"],
+      "venue": "Acta Materialia",
+      "year": 2020,
+      "type": "journal",
+      "links": {
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S1359645420300720",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["machine-learning", "interpretability", "materials-science"],
+      "featured": true
+    },
+    {
+      "id": "botari2020melime",
+      "title": "MeLIME: Meaningful local explanation for machine learning models",
+      "authors": ["Tiago Botari", "Frederik Hvilshøj", "Rafael Izbicki", "André C. P. L. F. de Carvalho"],
+      "venue": "arXiv preprint",
+      "year": 2020,
+      "type": "preprint",
+      "links": {
+        "doi": null,
+        "arxiv": "https://arxiv.org/abs/2009.05818",
+        "pdf": "https://arxiv.org/pdf/2009.05818.pdf"
+      },
+      "tags": ["machine-learning", "interpretability", "explainability"],
+      "featured": true
+    },
+    {
+      "id": "kononova2019textmined",
+      "title": "Text-mined dataset of inorganic materials synthesis recipes",
+      "authors": ["O. Kononova", "H. Huo", "T. He", "Z. Rong", "T. Botari", "W. Sun", "V. Tshitoyan", "G. Ceder"],
+      "venue": "Scientific Data",
+      "year": 2019,
+      "volume": "6",
+      "issue": "1",
+      "pages": "1–11",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.nature.com/articles/s41597-019-0224-1",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["machine-learning", "materials-science", "text-mining"],
+      "featured": true
+    },
+    {
+      "id": "huo2019semisupervised",
+      "title": "Semi-supervised machine-learning classification of materials synthesis procedures",
+      "authors": ["H. Huo", "Z. Rong", "O. Kononova", "W. Sun", "T. Botari", "T. He", "V. Tshitoyan", "G. Ceder"],
+      "venue": "npj Computational Materials",
+      "year": 2019,
+      "volume": "5",
+      "issue": "1",
+      "pages": "62",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.nature.com/articles/s41524-019-0204-1",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["machine-learning", "materials-science", "text-mining", "semi-supervised-learning"],
+      "featured": false
+    },
+    {
+      "id": "suarez2019strain",
+      "title": "Prediction of strain-controlled adhesion in a single-layer covalent organic framework",
+      "authors": ["M. Y. Suárez-Villagrán", "T. Botari", "J. H. Miller Jr", "L. D. Machado"],
+      "venue": "Carbon",
+      "year": 2019,
+      "volume": "143",
+      "pages": "172–178",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0008622318310182",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "covalent-organic-frameworks"],
+      "featured": false
+    },
+    {
+      "id": "teodoro2019railway",
+      "title": "Fast simulation of railway pneumatic brake systems",
+      "authors": ["Í. P. Teodoro", "D. F. Ribeiro", "T. Botari", "T. S. Martins", "A. A. Santos"],
+      "venue": "Proceedings of the Institution of Mechanical Engineers, Part F: Journal of Rail and Rapid Transit",
+      "year": 2019,
+      "volume": "233",
+      "issue": "4",
+      "pages": "420–430",
+      "type": "journal",
+      "links": {
+        "doi": "https://journals.sagepub.com/doi/abs/10.1177/0954409718796903",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-modeling", "engineering"],
+      "featured": false
+    },
+    {
+      "id": "botari2019local",
+      "title": "Local interpretation methods to machine learning using the domain of the feature space",
+      "authors": ["Tiago Botari", "Rafael Izbicki", "André C. P. L. F. de Carvalho"],
+      "venue": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML PKDD)",
+      "year": 2019,
+      "pages": "241–252",
+      "publisher": "Springer, Cham",
+      "type": "conference",
+      "links": {
+        "doi": null,
+        "arxiv": "https://arxiv.org/abs/1907.13525",
+        "pdf": null
+      },
+      "tags": ["machine-learning", "interpretability"],
+      "featured": false
+    },
+    {
+      "id": "woellner2018schwarzites",
+      "title": "Mechanical properties of schwarzites-a fully atomistic reactive molecular dynamics investigation",
+      "authors": ["C. F. Woellner", "T. Botari", "E. Perim", "D. S. Galvao"],
+      "venue": "MRS Advances",
+      "year": 2018,
+      "volume": "3",
+      "issue": "8-9",
+      "pages": "451–456",
+      "type": "conference",
+      "links": {
+        "doi": "https://link.springer.com/article/10.1557/adv.2018.124",
+        "arxiv": "https://arxiv.org/abs/1801.05639",
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "molecular-dynamics"],
+      "featured": false
+    },
+    {
+      "id": "villagran2018aps",
+      "title": "Mechanical properties of a two-dimensional covalent organic framework",
+      "authors": ["M. Villagran", "T. Botari", "J. Miller", "L. Machado"],
+      "venue": "Bulletin of the American Physical Society",
+      "year": 2018,
+      "volume": "63",
+      "type": "conference",
+      "links": {
+        "doi": "https://meetings.aps.org/Meeting/MAR18/Session/A36.13",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "covalent-organic-frameworks"],
+      "featured": false
+    },
+    {
+      "id": "botari2017thermodynamic",
+      "title": "Thermodynamic Equilibria in Carbon Nitride Photocatalyst Materials and Conditions for the Existence of Graphitic Carbon Nitride g-C3N4",
+      "authors": ["T. Botari", "W. P. Huhn", "V. W. Lau", "B. V. Lotsch", "V. Blum"],
+      "venue": "Chemistry of Materials",
+      "year": 2017,
+      "type": "journal",
+      "links": {
+        "doi": "https://pubs.acs.org/doi/10.1021/acs.chemmater.7b00965",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "photocatalysis"],
+      "featured": false
+    },
+    {
+      "id": "bizao2017nanowiggles",
+      "title": "Mechanical Properties and Fracture Patterns of Graphene (Graphitic) Nanowiggles",
+      "authors": ["R. A. Bizão", "T. Botari", "E. Perim", "D. S. Galvao"],
+      "venue": "Carbon",
+      "year": 2017,
+      "type": "journal",
+      "links": {
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0008622317303743",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "graphene"],
+      "featured": false
+    },
+    {
+      "id": "lau2017urea",
+      "title": "Urea-Modified Carbon Nitrides: Enhancing Photocatalytic Hydrogen Evolution by Rational Defect Engineering",
+      "authors": ["V. W. Lau", "V. W. Yu", "F. Ehrat", "T. Botari", "I. Moudrakovski", "T. Simon", "V. Duppel", "E. Medina", "J. Stolarczyk", "J. Feldmann", "V. Blum", "B. V. Lotsch"],
+      "venue": "Advanced Energy Materials",
+      "year": 2017,
+      "type": "journal",
+      "links": {
+        "doi": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aenm.201602251",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["materials-science", "photocatalysis", "computational-physics"],
+      "featured": false
+    },
+    {
+      "id": "lau2016rational",
+      "title": "Towards rational design of carbon nitride photocatalysts of cyanamide 'defects' as catalytically relevant sites",
+      "authors": ["V. W. Lau", "I. Moudrakovski", "T. Botari", "S. Weinburger", "M. Mesch", "V. Duppel", "J. Senker", "V. Blum", "B. Lotsch"],
+      "venue": "Nature Communications",
+      "year": 2016,
+      "volume": "7",
+      "pages": "12165",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.nature.com/articles/ncomms12165",
+        "arxiv": "https://arxiv.org/abs/1604.02131",
+        "pdf": null
+      },
+      "tags": ["materials-science", "photocatalysis", "computational-physics"],
+      "featured": true
+    },
+    {
+      "id": "desousa2016carbonnitride",
+      "title": "Mechanical and Structural Properties of Graphene-like Carbon Nitride Sheets",
+      "authors": ["J. M. de Sousa", "T. Botari", "E. Perim", "R. A. Bizao", "D. S. Galvao"],
+      "venue": "RSC Advances",
+      "year": 2016,
+      "volume": "6",
+      "pages": "76915–76921",
+      "type": "journal",
+      "links": {
+        "doi": "https://pubs.rsc.org/en/content/articlelanding/2016/ra/c6ra14273g",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "2d-materials"],
+      "featured": false
+    },
+    {
+      "id": "botari2016graphene",
+      "title": "Graphene Healing Mechanism: Theoretical Investigation",
+      "authors": ["T. Botari", "R. Paupitz", "P. A. S. Autreto", "D. S. Galvao"],
+      "venue": "Carbon",
+      "year": 2016,
+      "volume": "99",
+      "pages": "302–309",
+      "type": "journal",
+      "links": {
+        "doi": "https://www.sciencedirect.com/science/article/abs/pii/S0008622315304784",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "graphene"],
+      "featured": false
+    },
+    {
+      "id": "ribeiro2016railway",
+      "title": "Simulation of a railway pneumatic brake system",
+      "authors": ["D. Ribeiro", "I. Teodoro", "T. Botari", "T. Martins", "A. Santos"],
+      "venue": "18th International Wheelset Congress (IWC)",
+      "year": 2016,
+      "pages": "105–110",
+      "publisher": "IEEE",
+      "type": "conference",
+      "links": {
+        "doi": "https://ieeexplore.ieee.org/abstract/document/8068377",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-modeling", "engineering"],
+      "featured": false
+    },
+    {
+      "id": "botari2016phd",
+      "title": "Simulação Atomística de Materiais Bi-dimensionais: Siliceno, Grafeno e Nitreto de Carbono",
+      "authors": ["Tiago Botari"],
+      "venue": "PhD Thesis, Computational Physics",
+      "year": 2016,
+      "type": "thesis",
+      "links": {
+        "doi": null,
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "2d-materials"],
+      "featured": false
+    },
+    {
+      "id": "blum2015aps",
+      "title": "Photocatalytically active oligomeric graphitic carbon nitride: Conformational flexibility, electronic levels, carrier localization",
+      "authors": ["V. Blum", "V. Lau", "T. Botari", "W. Huhn", "B. V. Lotsch"],
+      "venue": "APS Meeting Abstracts",
+      "year": 2015,
+      "type": "conference",
+      "links": {
+        "doi": "https://meetings.aps.org/Meeting/MAR15/Session/Q41.11",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "photocatalysis"],
+      "featured": false
+    },
+    {
+      "id": "botari2014silicene",
+      "title": "Mechanical Properties and Fracture Dynamics of Silicene Membranes",
+      "authors": ["T. Botari", "E. Perim", "P. A. S. Autreto", "A. C. T. van Duin", "D. S. Galvao"],
+      "venue": "Physical Chemistry Chemical Physics",
+      "year": 2014,
+      "volume": "16",
+      "pages": "19417–19423",
+      "type": "journal",
+      "links": {
+        "doi": "https://pubs.rsc.org/en/content/articlelanding/2014/cp/c4cp02902j",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "2d-materials"],
+      "featured": false
+    },
+    {
+      "id": "perim2014silicon",
+      "title": "One-dimensional silicon and germanium nanostructures with no carbon analogues",
+      "authors": ["E. Perim", "R. Paupitz", "T. Botari", "D. S. Galvao"],
+      "venue": "Physical Chemistry Chemical Physics",
+      "year": 2014,
+      "volume": "16",
+      "issue": "44",
+      "pages": "24570–24574",
+      "type": "journal",
+      "links": {
+        "doi": "https://pubs.rsc.org/en/content/articlelanding/2014/cp/c4cp03708a",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "nanostructures"],
+      "featured": false
+    },
+    {
+      "id": "bizao2014mrs",
+      "title": "Mechanical properties of graphene nanowiggles",
+      "authors": ["R. A. Bizao", "T. Botari", "D. S. Galvao"],
+      "venue": "MRS Online Proceedings Library Archive",
+      "year": 2014,
+      "volume": "1658",
+      "type": "conference",
+      "links": {
+        "doi": "https://www.cambridge.org/core/journals/mrs-online-proceedings-library-archive/article/abs/mechanical-properties-of-graphene-nanowiggles/9C14A09EA7C41F29D6047440434FCA26",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "graphene"],
+      "featured": false
+    },
+    {
+      "id": "botari2013fermi",
+      "title": "One-dimensional Fermi accelerator model with moving wall described by a nonlinear van der Pol oscillator",
+      "authors": ["T. Botari", "E. D. Leonel"],
+      "venue": "Physical Review E",
+      "year": 2013,
+      "volume": "87",
+      "issue": "1",
+      "pages": "012904",
+      "type": "journal",
+      "links": {
+        "doi": "https://link.aps.org/doi/10.1103/PhysRevE.87.012904",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "nonlinear-dynamics"],
+      "featured": false
+    },
+    {
+      "id": "botari2013mrs",
+      "title": "Mechanical properties and fracture dynamics of silicene membranes",
+      "authors": ["T. Botari", "E. Perim", "P. Autreto", "R. Paupitz", "D. S. Galvao"],
+      "venue": "MRS Online Proceedings Library Archive",
+      "year": 2013,
+      "volume": "1549",
+      "pages": "99–107",
+      "type": "conference",
+      "links": {
+        "doi": "https://www.cambridge.org/core/journals/mrs-online-proceedings-library-archive/article/abs/mechanical-properties-and-fracture-dynamics-of-silicene-membranes/3D7940586E2AB95D92A4CF67E63BBC18",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "materials-science", "2d-materials"],
+      "featured": false
+    },
+    {
+      "id": "botari2012masters",
+      "title": "Aceleração de Fermi em bilhares com fronteiras dependentes do tempo descritas por osciladores não lineares",
+      "authors": ["Tiago Botari"],
+      "venue": "Master's Dissertation, Physics",
+      "year": 2012,
+      "type": "thesis",
+      "links": {
+        "doi": null,
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-physics", "nonlinear-dynamics"],
+      "featured": false
+    },
+    {
+      "id": "botari2011dengue",
+      "title": "Explaining the high number of infected people by dengue in Rio de Janeiro in 2008 using a susceptible-infective-recovered model",
+      "authors": ["T. Botari", "S. G. Alves", "E. D. Leonel"],
+      "venue": "Physical Review E",
+      "year": 2011,
+      "volume": "83",
+      "issue": "3",
+      "pages": "037101",
+      "type": "journal",
+      "links": {
+        "doi": "https://link.aps.org/doi/10.1103/PhysRevE.83.037101",
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-modeling", "epidemiology"],
+      "featured": false
+    },
+    {
+      "id": "botari2010undergrad",
+      "title": "Modelagem de epidemia da dengue via autômatos celulares",
+      "authors": ["Tiago Botari"],
+      "venue": "Undergraduate Thesis",
+      "year": 2010,
+      "type": "thesis",
+      "links": {
+        "doi": null,
+        "arxiv": null,
+        "pdf": null
+      },
+      "tags": ["computational-modeling", "epidemiology"],
+      "featured": false
+    }
+  ]
+}

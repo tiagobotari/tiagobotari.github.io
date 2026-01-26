@@ -1,0 +1,73 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import PillarCard from '../components/research/PillarCard.astro';
+import Collaboration from '../components/research/Collaboration.astro';
+import researchData from '../data/research.json';
+---
+
+<PageLayout
+  title="Research - Tiago Botari"
+  description="My research focuses on Scientific Machine Learning for semiconductor metrology, interpretable AI, and data-driven discovery in physical sciences."
+>
+  <div class="mx-auto max-w-content px-6 py-8 md:px-8 md:py-12">
+    <!-- Page Header -->
+    <div class="text-center space-y-3 mb-8 animate-on-scroll">
+      <h1 class="text-4xl md:text-5xl font-bold text-near-black">
+        Research
+      </h1>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+        My research bridges machine learning, physics, and industrial applications, with a focus on creating interpretable, reliable AI systems for semiconductor manufacturing.
+      </p>
+    </div>
+
+    <!-- Research Pillars -->
+    <div class="space-y-6 mb-8">
+      <h2 class="text-3xl font-bold text-near-black text-center animate-on-scroll">
+        Research Pillars
+      </h2>
+
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {researchData.pillars.map((pillar) => (
+          <PillarCard
+            title={pillar.title}
+            description={pillar.description}
+            keywords={pillar.keywords}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- Collaboration Section -->
+  <Collaboration />
+</PageLayout>
+
+<script>
+  // Intersection Observer for scroll animations
+  document.addEventListener('DOMContentLoaded', () => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!prefersReducedMotion) {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+        observer.observe(el);
+      });
+    } else {
+      document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+        el.classList.add('visible');
+      });
+    }
+  });
+</script>
+</PageLayout>

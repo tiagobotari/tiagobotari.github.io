@@ -1,0 +1,105 @@
+---
+import Badge from '../ui/Badge.astro';
+
+interface Props {
+  publication: {
+    id: string;
+    title: string;
+    authors: string[];
+    venue: string;
+    year: number;
+    type: string;
+    links: {
+      doi?: string | null;
+      arxiv?: string | null;
+      pdf?: string | null;
+      code?: string | null;
+      slides?: string | null;
+    };
+    tags: string[];
+  };
+}
+
+const { publication } = Astro.props;
+
+const hasAnyLink = Object.values(publication.links).some(link => link !== null);
+---
+
+<div class="publication-item py-6 border-b border-gray-200 last:border-0 space-y-3" data-tags={JSON.stringify(publication.tags)} data-year={publication.year}>
+  <div class="space-y-2">
+    <h3 class="text-lg font-semibold text-near-black leading-tight">
+      {publication.title}
+    </h3>
+
+    <p class="text-sm text-gray-600">
+      {publication.authors.join(', ')}
+    </p>
+
+    <p class="text-sm text-gray-700">
+      <span class="font-medium">{publication.venue}</span> · {publication.year}
+    </p>
+  </div>
+
+  {hasAnyLink && (
+    <div class="flex flex-wrap items-center gap-3">
+      {publication.links.doi && (
+        <a
+          href={publication.links.doi}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-primary-600 hover:text-primary-700 font-medium hover:underline"
+        >
+          DOI →
+        </a>
+      )}
+      {publication.links.arxiv && (
+        <a
+          href={publication.links.arxiv}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-primary-600 hover:text-primary-700 font-medium hover:underline"
+        >
+          arXiv →
+        </a>
+      )}
+      {publication.links.pdf && (
+        <a
+          href={publication.links.pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-primary-600 hover:text-primary-700 font-medium hover:underline"
+        >
+          PDF →
+        </a>
+      )}
+      {publication.links.code && (
+        <a
+          href={publication.links.code}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-primary-600 hover:text-primary-700 font-medium hover:underline"
+        >
+          Code →
+        </a>
+      )}
+      {publication.links.slides && (
+        <a
+          href={publication.links.slides}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm text-primary-600 hover:text-primary-700 font-medium hover:underline"
+        >
+          Slides →
+        </a>
+      )}
+    </div>
+  )}
+
+  {publication.tags.length > 0 && (
+    <div class="flex flex-wrap gap-2">
+      {publication.tags.map((tag) => (
+        <Badge>{tag}</Badge>
+      ))}
+    </div>
+  )}
+</div>

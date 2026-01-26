@@ -1,0 +1,94 @@
+{
+  "patents": [
+    {
+      "id": "WO2025247596A1",
+      "year": 2025,
+      "title": "Method and System for Predicting Metrology Data Using a Neural Network",
+      "description": "Neural network-based prediction of metrology data",
+      "link": "https://patents.google.com/patent/WO2025247596A1",
+      "tags": ["metrology", "machine-learning"],
+      "featured": true
+    },
+    {
+      "id": "WO2025223790A1",
+      "year": 2025,
+      "title": "Performance Cost-Based Training Dataset Generation for Mask Prediction",
+      "description": "Method and system for performance cost-based training dataset generation for mask prediction",
+      "link": "https://patents.google.com/patent/WO2025223790A1",
+      "tags": ["metrology", "machine-learning"],
+      "featured": false
+    },
+    {
+      "id": "WO2025201829A1",
+      "year": 2025,
+      "title": "Pellicle Membrane for EUV Utilization Apparatus",
+      "description": "Pellicle membrane for an EUV utilization apparatus and method of manufacturing thereof",
+      "link": "https://patents.google.com/patent/WO2025201829A1",
+      "tags": ["metrology"],
+      "featured": false
+    },
+    {
+      "id": "EP4607460A2",
+      "year": 2025,
+      "title": "Defect Identification and Segmentation Without Labeled Data",
+      "description": "Defect identification/segmentation without labeled data and image quality enhancement",
+      "link": "https://patents.google.com/patent/EP4607460A2",
+      "tags": ["inspection", "enhancement", "self-supervised"],
+      "featured": true
+    },
+    {
+      "id": "EP4607453A2",
+      "year": 2025,
+      "title": "Measurement Charge Removal Using Diffusion Models",
+      "description": "Measurement charge removal and per-layer stack geometry inference using diffusion models",
+      "link": "https://patents.google.com/patent/EP4607453A2",
+      "tags": ["metrology", "enhancement", "machine-learning"],
+      "featured": true
+    },
+    {
+      "id": "WO2025124841A1",
+      "year": 2025,
+      "title": "Primitive-Based Mask Prediction",
+      "description": "Method and system for primitive-based mask prediction",
+      "link": "https://patents.google.com/patent/WO2025124841A1",
+      "tags": ["metrology", "machine-learning"],
+      "featured": false
+    },
+    {
+      "id": "WO2025108661A1",
+      "year": 2025,
+      "title": "Contrastive Deep Learning for Defect Inspection",
+      "description": "Contrastive deep learning for defect inspection",
+      "link": "https://patents.google.com/patent/WO2025108661A1",
+      "tags": ["inspection", "self-supervised", "machine-learning"],
+      "featured": true
+    },
+    {
+      "id": "WO2025026668A1",
+      "year": 2025,
+      "title": "Data Processing Method for Charged Particle Assessment",
+      "description": "Data processing method, charged particle assessment method and system",
+      "link": "https://patents.google.com/patent/WO2025026668A1",
+      "tags": ["metrology", "machine-learning"],
+      "featured": false
+    },
+    {
+      "id": "WO2024165248A1",
+      "year": 2024,
+      "title": "Diversifying SEM Measurement Schemes",
+      "description": "Diversifying SEM measurement schemes for improved accuracy",
+      "link": "https://patents.google.com/patent/WO2024165248A1",
+      "tags": ["metrology", "machine-learning"],
+      "featured": false
+    },
+    {
+      "id": "WO2024013161A1",
+      "year": 2024,
+      "title": "High-Resolution Information from Low-Resolution Images",
+      "description": "Obtaining high resolution information from low resolution images",
+      "link": "https://patents.google.com/patent/WO2024013161A1",
+      "tags": ["enhancement", "machine-learning"],
+      "featured": false
+    }
+  ]
+}

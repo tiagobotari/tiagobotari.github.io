@@ -1,0 +1,35 @@
+---
+import socialData from '../../data/social.json';
+---
+
+<section class="bg-gray-50 border-y border-gray-200">
+  <div class="mx-auto max-w-content px-6 py-8 md:px-8">
+    <div class="flex flex-wrap items-center justify-center gap-6 md:gap-8 text-center">
+      <a
+        href={socialData.scholar}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="group"
+      >
+        <div class="flex items-center gap-2 text-gray-600 group-hover:text-primary-600 transition-colors">
+          <span class="text-2xl font-bold text-near-black group-hover:text-primary-600">2318</span>
+          <span class="text-sm">citations</span>
+        </div>
+      </a>
+
+      <span class="hidden md:inline text-gray-300">·</span>
+
+      <div class="flex items-center gap-2 text-gray-600">
+        <span class="text-2xl font-bold text-near-black">18</span>
+        <span class="text-sm">h-index</span>
+      </div>
+
+      <span class="hidden md:inline text-gray-300">·</span>
+
+      <div class="flex items-center gap-2 text-gray-600">
+        <span class="text-2xl font-bold text-near-black">21</span>
+        <span class="text-sm">i10-index</span>
+      </div>
+    </div>
+  </div>
+</section>

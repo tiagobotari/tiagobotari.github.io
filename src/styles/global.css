@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-near-black;
+  }
+
+  /* Focus indicators for accessibility */
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary-600;
+  }
+}
+
+@layer components {
+  /* Skip link for accessibility */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary-600 focus:text-white focus:rounded;
+  }
+}
+
+@layer utilities {
+  /* Respect reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Smooth animations for scroll-triggered elements */
+  .animate-on-scroll {
+    @apply opacity-0 translate-y-5 transition-all duration-500 ease-out;
+  }
+
+  .animate-on-scroll.visible {
+    @apply opacity-100 translate-y-0;
+  }
+}

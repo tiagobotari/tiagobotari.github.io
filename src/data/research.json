@@ -1,0 +1,40 @@
+{
+  "pillars": [
+    {
+      "id": "sciml-metrology",
+      "title": "Scientific Machine Learning for Metrology & Inverse Problems",
+      "description": "Developing physics-informed and hybrid machine learning models that combine domain knowledge from simulations with experimental signals. This research focuses on solving inverse problems in semiconductor metrology, uncertainty quantification, and creating reliable surrogate models for complex physical systems.",
+      "keywords": [
+        "Physics-Informed Neural Networks",
+        "Hybrid Modeling",
+        "Uncertainty Quantification",
+        "Inverse Problems",
+        "Surrogate Models"
+      ]
+    },
+    {
+      "id": "interpretable-ml",
+      "title": "Interpretable & Trustworthy ML",
+      "description": "Building machine learning systems that are transparent, interpretable, and reliable for high-stakes applications in semiconductor manufacturing. This work emphasizes uncertainty quantification, model interpretability, and auditing capabilities to ensure AI systems can be trusted in critical decision-making processes.",
+      "keywords": [
+        "Model Interpretability",
+        "Uncertainty Quantification",
+        "Trustworthy AI",
+        "Auditable Systems",
+        "Reliability Engineering"
+      ]
+    },
+    {
+      "id": "data-driven-physics",
+      "title": "Data-Driven Discovery in Physical Sciences",
+      "description": "Leveraging machine learning and data mining techniques to uncover composition-property relationships and discover new patterns in physical sciences. Drawing on a computational physics background, this research applies scientific ML to materials science, defect inspection, and metrology challenges.",
+      "keywords": [
+        "Materials Informatics",
+        "Defect Inspection",
+        "Scientific Computing",
+        "Data Mining",
+        "Computational Physics"
+      ]
+    }
+  ]
+}
