@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(python3:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git pull:*)"
+    ],
+    "additionalDirectories": [
+      "/home/tiago/.claude/projects/-home-tiago-projects-tiagobotari-github-io"
+    ]
+  }
+}
